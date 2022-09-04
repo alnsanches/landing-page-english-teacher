@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap');
+
+body {
+    font-family: 'Epilogue', sans-serif;
+    color: #0b090a;
+}
+
+.btn {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn-sm {
+    padding: 12px 24px;
+    font-size: 0.9rem;
+}
+
+.btn-primary {
+    background-color: #e67e22;
+}
+
+.btn-primary:hover {
+    background-color: #d35400;
+}
+
+.btn-outline {
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+
+.btn-outline:hover {
+    border-color: #e67e22;
+    color: #e67e22;
+}
+
+.container {
+    max-width: 1280px;
+    max-height: 580px;
+    margin: 0 auto;
+}
+
+.overtitle {
+    font-size: 16px;
+    line-height: 24px;
+    color: #e67e22;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 44px;
+    line-height: 56px;
+    font-weight: 700;
+}
+
+
+/* layout */
+
+#header-container { /*isso é um elemento*/
+    background-color: #0b090a;
+}
+
+.header { /*isso é uma classe*/
+    padding: 24px 72px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* hero section */
+
+#hero-container {
+    background-color: #0b090a;
+    color: #fff;
+    padding: 0 72px;
+    margin-bottom: 60px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.hero-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 96px 0;
+}
+
+
+.hero-img {
+    flex: 1;
+    align-self: flex-end;
+}
+
+.hero-img {
+    display: flex;
+}
+
+.hero-img img {
+    max-width: 40%;
+    height: 100%;
+    margin-left: 772px;
+    margin-top: -474px;
+}
+
+.herotxt {
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 700;
+}
+
+.text-p {
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 520px;
+}
+
+/* services section */
+
+#service-container {
+    padding: 96px 72px;  
+}
+
+.services-list {
+    margin-top: 50px;
+    display: flex;
+    gap: 32px;
+}
+
+.service-card {
+    background-color: #f5f3f4;
+    border: 2px solid #d3d3d3;
+}
+
+.service-card img {
+    width: 100%;
+}
+
+.service-text {
+    padding: 32px;
+}
+
+.service-text h3 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.service-text p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* location section */
+
+#about-container {
+    background-color: #f5f3f4;
+    margin-top: 200px;
+}
+
+#about-container .about {
+    padding: 96px 72px 48px;
+}
+
+#about-container address {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#about-container span {
+    margin-bottom: 6px;
+}
+
+.btn-footer {
+    background-color: #e67e22;
+    margin-top: -80px;
+    margin-bottom: -20px;
+    padding: 20px 30px;
+}
+
+.btn-footer:hover {
+    background-color: #d35400;
+}
+
+.btnRodape {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 90px 0 0 0;
+}
+
+/* formulario de contato */
+
+.container-form {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -280px;
+    font-size: 14px;
+}
+
+form {
+    width: 250px;
+    height: 250px;
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.container-form img {
+    display: flex;
+    position: relative;
+    left: 40%;
+    margin-bottom: 12px;
+    margin-top: -12px;
+
+}
+
+input, textarea {
+    margin-bottom: 6px;
+}
+
+button {
+    padding: 12px;
+    color: #fff;
+    background-color: #d35400;
+    cursor: pointer;
+}
+
+/* footer section */
+
+footer {
+    background-color: #0b090a;
+    color: #fff;
+    gap: 10px;
+    padding: 48px 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    color: currentColor;
+}
+
+.footer-logocopy {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0b090a;
+}
+::-webkit-scrollbar-thumb {
+    background: #e67e22;
+    border-radius: 4px;
+}
